@@ -36,6 +36,8 @@ Analysis pipeline for pupilometry data
   
    ### Helper functions
   
+   `et_movedata.m` - Find and move PL exports and marker data to same location for processing.
+   
    `et_findshortesttrial.m`
   
   `et_rescaleX.m`
