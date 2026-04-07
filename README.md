@@ -5,8 +5,10 @@ Analysis pipeline for pupilometry data
 
   `et_main_analysis.m` - main program for running analysis
     
-   `et_start.m` - helper for finding subject files in \Results_data\ and loading, calls et_main_analysis()
+  `et_start.m` - helper for finding subject files in \Results_data\ and loading, calls et_main_analysis()
 
+  `et_movedata.m` - Find and move PL exports and marker data to same location for processing.
+  
 ---
 
 \subfunctions\ - below functions
@@ -35,8 +37,6 @@ Analysis pipeline for pupilometry data
    `et_plotseg.m`
   
    ### Helper functions
-  
-   `et_movedata.m` - Find and move PL exports and marker data to same location for processing.
    
    `et_findshortesttrial.m`
   
